@@ -1,0 +1,102 @@
+@media screen and (max-width: 768px) {
+    body {
+        display: block;
+    }
+
+    #container {
+        max-width: 768px;
+    }
+
+    .barre_menu {
+        display: flex;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .commande {
+        display: block;
+        text-align: center;
+    }
+
+    .col1 {
+        width: 100%;
+    }
+
+    .col2 {
+        width: 100%;
+    }
+
+    .livraison {
+        justify-content: space-around;
+    }
+
+    .categorie {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .dif-categorie {
+        width: 350px;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .service {
+        display: block;
+    }
+
+    .menu_container {
+        width: 700px;
+    }
+
+    .nourriture h1 {
+        text-align: center;
+    }
+
+    .menu {
+        display: flex;
+        max-width: 768px;
+        /* justify-content: space-between; */
+        flex-wrap: wrap;
+    }
+
+    /* .menu1 {
+        align-items: center;
+    } */
+
+    .dif_menu {
+        width: 400px;
+
+    }
+
+    /* .dif_menu_burger {
+        align-items: center;
+    } */
+
+    .footer1 {
+        display: block;
+        text-align: center;
+        max-width: 768px;
+        padding: none;
+    }
+
+    .footer2 {
+        max-width: 768px;
+    }
+
+    .menu_container {
+        max-width: 768px;
+    }
+
+}
+
+
+
+/* @media screen and (max-width: 768px){
+
+} */
